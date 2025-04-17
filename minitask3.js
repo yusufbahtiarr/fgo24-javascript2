@@ -20,4 +20,4 @@ const temperature = {
     }
 }
 
-temperature.convertTemperature(12)
+temperature.convertTemperature()
