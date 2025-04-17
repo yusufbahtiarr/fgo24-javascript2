@@ -9,18 +9,21 @@ const data = [
 
 ]
    
-data[0][1][3].string[1] = {
-    ...data,
-    value: "Selamat"
-}
+// data[0][1][3].string[1] = {
+//     ...data,
+//     value: "Selamat"
+// }
 
 const data2 = {
-    ...data,
     value : "Selamat Pagi",
 }
 
+data[0][1][3].string[1] = {
+    ...data[0][1][3].string[1],
+    ...data2,
+}
+
 console.log(data[0][1][3].string[1].value); // Selamat
-console.log(data2[0][1][3].string[1].value); // Selamat
 
 
 const bio = {
