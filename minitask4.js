@@ -1,7 +1,7 @@
 // Menentukan bilangan ganjil dan genap dengan callback
 
 const oddEvenNumber = (num, cv) =>{
-    if (typeof x != "number"){
+    if (typeof num != "number"){
         console.log("Input harus bertipe number");
         return
     }
